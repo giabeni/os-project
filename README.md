@@ -20,7 +20,9 @@ To run the program, make sure you have all dependencies installed as detailed ab
 $ npm start
 ```
 
-It will start the VM, assemble the program in ./tests/program.txt, load it to the virtual memory and execute it. 
+It will start the simulator.
+
+There are some input examples at folder `./tests`.
 
 ## Output
 
