@@ -1,0 +1,19 @@
+; simulation start and end time
+10
+100000
+4
+
+; Id | Processing time | Memory space required | I/O requests 
+1 200 40 3
+2 250 70 4
+3 800 50 15
+4 550 80 0
+
+; Jobs to be executed:
+; Job Id | Arrival time
+1 30
+2 60
+3 100
+4 800
+
+; obs: remember the blank white line after the programs.

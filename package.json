@@ -1,0 +1,41 @@
+{
+  "name": "os-project",
+  "version": "0.0.0",
+  "description": "Projeto da disciplina de Sistemas Operacionais de 2019.2, ministrada pelo Prof. Dr. João José Neto. Aluno: Giovanni Abeni dos Santos (NUSP 9837121). POLI-USP/PCS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc && node dist/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/giabeni/os-project.git"
+  },
+  "keywords": [
+    "os",
+    "node",
+    "job",
+    "scheduler",
+    "pcs",
+    "usp",
+    "sistemas",
+    "operacionais",
+    "motor",
+    "de",
+    "eventos"
+  ],
+  "author": "Giovanni Abeni",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/giabeni/os-project/issues"
+  },
+  "homepage": "https://github.com/giabeni/os-project#readme",
+  "devDependencies": {
+    "@types/node": "^12.12.7",
+    "tslint": "^5.20.1",
+    "typescript": "^3.7.2"
+  },
+  "dependencies": {
+    "fs": "0.0.1-security"
+  }
+}

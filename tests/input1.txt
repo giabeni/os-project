@@ -1,0 +1,19 @@
+; simulation start and end time
+10
+100000
+4
+
+; Id | Processing time | Number of segments | Segment[0] | ... | I/O requests | number of files | file names
+1 400 3 10 20 10 3 2 tea coffee
+2 550 5 5 10 5 5 45 4 0
+3 1200 1 50 15 3 salt pepper pad
+4 650 2 30 15 0 1 minesweeper
+
+; Jobs to be executed:
+; Job Id | Arrival time
+1 30
+2 60
+3 800
+4 100
+
+; obs: remember the blank white line after the programs.
